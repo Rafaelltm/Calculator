@@ -1,0 +1,28 @@
+button {
+    outline: none;
+    border: none;
+}
+
+button:active {
+    opacity: 40%;
+}
+
+button.operation {
+    background-color: #f2a34a;
+    color: #fff;
+}
+
+button.ac {
+    color: #000;
+    background-color: #f5f5f5;
+    grid-column: span 3;
+}
+
+button.number {
+    color: #fff;
+    background-color: #5c5b5b;
+}
+
+button.zero {
+    grid-column: span 2;
+}

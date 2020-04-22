@@ -1,0 +1,12 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 48px);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+
+    height: 280px;
+}
+
+.title {
+    color: #fff;
+    font-size: 1.6em;
+}

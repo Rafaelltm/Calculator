@@ -1,0 +1,11 @@
+div.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 1.4em;
+    background-color: #5c5b5b;
+    color: #fff;
+    grid-column: span 4;
+    overflow: hidden;
+}
